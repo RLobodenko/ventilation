@@ -11,7 +11,7 @@ function f3(){
 
     var c = (a - b)/b * 100
    
-    document.getElementById('out1').innerHTML = c;
+    document.getElementById('out1').innerHTML = c + " %";
 
     var d = a*60/50
     
