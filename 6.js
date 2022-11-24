@@ -12,7 +12,12 @@ function f3(){
     var c = (a - b)/b * 100;
    
     document.getElementById('out1').innerHTML = c + " %";
-
+    
+    
+    var f = a*50/hz;
+    
+  document.getElementById('out3').innerHTML = f + " м3/ч";
+    
     var d = a*60/hz;
     
      document.getElementById('out').innerHTML = d + " м3/ч";
