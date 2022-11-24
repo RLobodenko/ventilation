@@ -25,6 +25,20 @@ function f3(){
     
     var e = a*68/hz;
      document.getElementById('out2').innerHTML = e + " м3/ч";
+    
+    var j = (f - b)/b * 100;
+   
+    document.getElementById('out4').innerHTML = j + " %";
+    
+    
+        var k = (d - b)/b * 100;
+   
+    document.getElementById('out5').innerHTML = k + " %";
+    
+        var l = (e - b)/b * 100;
+   
+    document.getElementById('out6').innerHTML = l + " %";
+    
 }
 
 
