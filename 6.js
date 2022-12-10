@@ -20,13 +20,11 @@ function f3(){
 function f4(){
     
     var d = document.getElementById('in6').value;
-    var e = document.getElementById('in7').value;
+    var i = document.getElementById('in7').value;
 
-    var i = 2 * d * e / j;
-    
-    var j = d + e;
-   
-    document.getElementById('out2').innerHTML = i + " мм";
+    var j = 2 * d * i / (d + i);
+      
+    document.getElementById('out2').innerHTML = j + " мм";
     
    
     
