@@ -24,7 +24,7 @@ function f4(){
 
     var c = 2*a*b/(a+b);
    
-    document.getElementById('out2').innerHTML = c + " %";
+    document.getElementById('out2').innerHTML = c + " мм";
     
    
     
