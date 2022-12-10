@@ -1,8 +1,4 @@
 
-var but1 = document.getElementById('but1');
-
-var but2 = document.getElementById('but2');
-
 
 function f3(){
     
