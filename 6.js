@@ -22,7 +22,7 @@ function f4(){
     var d = document.getElementById('in6').value;
     var i = document.getElementById('in7').value;
 
-    var j = 2 * d * i / (d + i);
+    var j = (2 * d * i)/ (d + i);
       
     document.getElementById('out2').innerHTML = j + " мм";
     
