@@ -19,12 +19,12 @@ function f3(){
 
 function f4(){
     
-    var a = document.getElementById('in6').value;
-    var b = document.getElementById('in7').value;
+    var d = document.getElementById('in6').value;
+    var e = document.getElementById('in7').value;
 
-    var c = 2*a*b/(a+b);
+    var f = 2 * d * e / (d + e);
    
-    document.getElementById('out2').innerHTML = c + " мм";
+    document.getElementById('out2').innerHTML = f + " мм";
     
    
     
