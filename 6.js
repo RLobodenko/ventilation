@@ -22,9 +22,11 @@ function f4(){
     var d = document.getElementById('in6').value;
     var e = document.getElementById('in7').value;
 
-    var f = 2 * d * e / (d + e);
+    var i = 2 * d * e / j;
+    
+    var j = d + e;
    
-    document.getElementById('out2').innerHTML = f + " мм";
+    document.getElementById('out2').innerHTML = i + " мм";
     
    
     
