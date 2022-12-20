@@ -40,4 +40,33 @@ function f4(){
 }
 
 
+function f5(){
+    
+    var m = document.getElementById('in8').value;
+
+
+    
+    
+
+    
+
+
+
+    
+  
+    
+ n = 6 * m;
+    
+     o = 2 * m;
+      
+    document.getElementById('out4').innerHTML = n + " мм";
+    
+    document.getElementById('out5').innerHTML = o + " мм";
+    
+    
+}
+
+
+
+
 
