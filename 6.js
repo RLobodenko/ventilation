@@ -13,7 +13,7 @@ function f3(){
     
 }
 
-function f4(d,i){
+function f4(){
     
     var d = document.getElementById('in6').value;
     var i = document.getElementById('in7').value;
