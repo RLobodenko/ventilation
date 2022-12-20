@@ -20,7 +20,7 @@ function f4(){
 
     
     
- j = 2 * d * i / d ;
+ j = 2 * d * i / (d+i) ;
     
 
 
