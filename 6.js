@@ -13,16 +13,29 @@ function f3(){
     
 }
 
-function f4(){
+function f4(d,i){
     
     var d = document.getElementById('in6').value;
     var i = document.getElementById('in7').value;
 
-    var j = 2 * d * i / (d + i);
-      
-    document.getElementById('out2').innerHTML = j + " мм";
     
-   
+    
+ j = (2 * d * i) / (d + i);
+    
+
+
+
+    
+  
+    
+ k = 6 * j;
+    
+     l = 2 * j;
+      
+    document.getElementById('out2').innerHTML = k + " мм";
+    
+    document.getElementById('out3').innerHTML = l + " мм";
+    
     
 }
 
