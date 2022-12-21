@@ -50,9 +50,9 @@ function f5(){
     
      o = 2 * m;
       
-    document.getElementById('out4').innerHTML = n;
+    document.getElementById('out4').innerHTML = n + " мм";
     
-    document.getElementById('out5').innerHTML = o;
+    document.getElementById('out5').innerHTML = o + " мм";
     
     var v = document.getElementById('in9').value;
     
