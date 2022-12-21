@@ -57,9 +57,9 @@ function f5(){
 
 
     
- n = 6 * m;
+ var n = 6 * m;
     
-     o = 2 * m;
+     var o = 2 * m;
       
     document.getElementById('out4').innerHTML = n + " мм";
     
@@ -68,11 +68,11 @@ function f5(){
     var v = document.getElementById('in9').value;
     
     
-  x = v * 0,054;
+ var x = v * 0,054;
     
-  y = v * 0,12;
+  var y = v * 0,12;
     
-  z = v * 0,28;
+  var z = v * 0,28;
     
     document.getElementById('out12').innerHTML = x;
     
