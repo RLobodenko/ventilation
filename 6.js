@@ -46,23 +46,28 @@ function f5(){
 
 
     
-    
-
-    
-
-
-
-    
-  
-    
  n = 6 * m;
     
      o = 2 * m;
       
-    document.getElementById('out4').innerHTML = n + " мм";
+    document.getElementById('out4').innerHTML = n;
     
-    document.getElementById('out5').innerHTML = o + " мм";
+    document.getElementById('out5').innerHTML = o;
     
+    var v = document.getElementById('in9').value;
+    
+    
+    x = v * 0,054;
+    
+    y = v * 0,12;
+    
+    y = z * 0,28;
+    
+    document.getElementById('out12').innerHTML = x;
+    
+    document.getElementById('out13').innerHTML = y;
+    
+    document.getElementById('out14').innerHTML = z;
     
 }
 

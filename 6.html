@@ -42,7 +42,7 @@
                            <p>L <sub>проектный</sub><span>(м<sup>3</sup>/ч)</span>:</p>
                            <input type="text" id="in5">
                                <br> <br>
-                               <button id="but1" onclick="f3()">Получить</button>
+                               <button onclick="f3()">Получить</button>
                                <br>
                                <p>Невязка:</p>
                            <span id='out1'></span>
@@ -52,9 +52,19 @@
 		    <p>Круглое сечение: </p>
 		    <p>Введите гидравлический диаметр:</p>
                            <input type="text" id="in8">
-		     <br> <br>
-                             <button id="but2" onclick="f5()">Получить</button>
+                               
 		     <br>
+             <p>Введите диаметр:</p>
+                            <input type="text" id="in9">
+             
+             <br>
+                             <button onclick="f5()">Получить</button>
+		     <br> <br>
+             <table align="center">
+                 <tr><td>0,054D</td><td>0,12D</td><td>0,28D</td></tr>
+                 <tr><td><span id='out12'></span></td><td><span id='out13'></span></td><td><span id='out14'></span></td></tr>
+                 </table>
+           
                                <p>6D<sub>г</sub> :</p>
                            <span id='out4'></span>
                            <br><br>
@@ -63,14 +73,18 @@
 		     <br>
                            <hr>
 		    <p>Прямоугольное сечение:</p>
-		    <p>Введите длину:</p>
+		    <p>Введите длину (a):</p>
                            <input type="text" id="in6">
                                
-                           <p>Введите ширину:</p>
+                           <p>Введите ширину (b):</p>
                            <input type="text" id="in7">
 		     <br> <br>
-                             <button id="but2" onclick="f4()">Получить</button>
-		     <br>
+                             <button onclick="f4()">Получить</button>
+		     <br> <br>
+             <table align="center">
+                 <tr><td>0,1a</td><td>0,2a</td><td>0,4a</td><td>0,1b</td><td>0,2b</td><td>0,4b</td></tr>
+                 <tr><td> <span id='out6'></span></td><td><span id='out7'></span></td><td><span id='out8'></span></td><td><span id='out9'></span></td><td><span id='out10'></span></td><td><span id='out11'></span></td></tr>
+                 </table>
                                <p>6D<sub>г</sub> :</p>
                            <span id='out2'></span>
                            <br><br>
