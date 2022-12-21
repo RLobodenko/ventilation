@@ -36,6 +36,17 @@ s = d + i;
     
     document.getElementById('out3').innerHTML = l + " мм";
     
+    document.getElementById('out6').innerHTML = x;
+    
+    document.getElementById('out7').innerHTML = y;
+    
+    document.getElementById('out8').innerHTML = z;
+
+    document.getElementById('out9').innerHTML = x;
+    
+    document.getElementById('out10').innerHTML = y;
+    
+    document.getElementById('out11').innerHTML = z;
     
 }
 
