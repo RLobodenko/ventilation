@@ -57,11 +57,11 @@ function f5(){
     var v = document.getElementById('in9').value;
     
     
-  var x = v * 0,054;
+  x = v * 0,054;
     
-  var y = v * 0,12;
+  y = v * 0,12;
     
-  var y = z * 0,28;
+  z = v * 0,28;
     
     document.getElementById('out12').innerHTML = x;
     
