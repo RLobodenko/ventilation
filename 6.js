@@ -1,5 +1,9 @@
 
 
+var but1 = document.getElementById('1');
+var but2 = document.getElementById('2');
+var but3 = document.getElementById('3');
+
 function f3(){
     
     var a = document.getElementById('in4').value;
@@ -15,38 +19,53 @@ function f3(){
 
 function f4(){
     
-    var d = document.getElementById('in6').value;
+   var d = document.getElementById('in6').value;
     var i = document.getElementById('in7').value;
 
     
     
- j = 2 * d * i / s ;
+ // var j = 2 * d * i / (d + i);
     
-s = d + i;
+
 
 
     
   
     
- k = 6 * j;
+// var k = 6 * j;
     
-     l = 2 * j;
+ //  var  l = 2 * j;
       
-    document.getElementById('out2').innerHTML = k + " мм";
+  //  document.getElementById('out2').innerHTML = k + " мм";
     
-    document.getElementById('out3').innerHTML = l + " мм";
+ //   document.getElementById('out3').innerHTML = l + " мм";
     
-    document.getElementById('out6').innerHTML = x;
     
-    document.getElementById('out7').innerHTML = y;
+   var q = 0.1 * d;
     
-    document.getElementById('out8').innerHTML = z;
+    
+    
+    document.getElementById('out6').innerHTML = q;
+    
+var w = 0.2 * d;
+    
+    document.getElementById('out7').innerHTML = w;
+    
+   var t = 0.4 * d;
+    
+    document.getElementById('out8').innerHTML = t;
+    
+   var u = 0.1 * i;
 
-    document.getElementById('out9').innerHTML = x;
+    document.getElementById('out9').innerHTML = u;
     
-    document.getElementById('out10').innerHTML = y;
+    var p = 0.2 * i;
     
-    document.getElementById('out11').innerHTML = z;
+    document.getElementById('out10').innerHTML = p;
+    
+  var  s = 0.4 * i;
+    
+    document.getElementById('out11').innerHTML = s;
     
 }
 
@@ -57,9 +76,9 @@ function f5(){
 
 
     
- var n = 6 * m;
+var n = 6 * m;
     
-     var o = 2 * m;
+   var o = 2 * m;
       
     document.getElementById('out4').innerHTML = n + " мм";
     
@@ -68,11 +87,11 @@ function f5(){
     var v = document.getElementById('in9').value;
     
     
- var x = v * 0,054;
+var x = v * 0.054;
     
-  var y = v * 0,12;
+  var y = v * 0.12;
     
-  var z = v * 0,28;
+var z = v * 0.28;
     
     document.getElementById('out12').innerHTML = x;
     
