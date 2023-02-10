@@ -5,12 +5,12 @@ var but3 = document.getElementById('3');
 
 function f2(){
     
-    var a = document.getElementById('in4').value;
-    var b = document.getElementById('in5').value;
+    var a = document.getElementById('in1').value;
+    var b = document.getElementById('in2').value;
 
     var c = (a - b)/b * 100;
    
-    document.getElementById('out1').innerHTML = c.toFixed(1) + " %";
+    document.getElementById('out3').innerHTML = c.toFixed(1) + " %";
     
    
     
@@ -23,7 +23,7 @@ function f3(){
 
     var c = 3600 * a * 3.14 * b * b / 4000000;
    
-    document.getElementById('out1').innerHTML = c + " м3/ч";
+    document.getElementById('out1').innerHTML = c.toFixed(1) + " м3/ч";
     
    
     
@@ -39,7 +39,7 @@ function f4(){
     
     
     var d = 3600 * x * y * z / 1000000;
-    document.getElementById('out2').innerHTML = d + " м3/ч";
+    document.getElementById('out2').innerHTML = d.toFixed(1) + " м3/ч";
     
    
     
