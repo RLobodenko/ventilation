@@ -1,5 +1,20 @@
 var but1 = document.getElementById('1');
 var but2 = document.getElementById('2');
+var but3 = document.getElementById('3');
+
+
+function f2(){
+    
+    var a = document.getElementById('in4').value;
+    var b = document.getElementById('in5').value;
+
+    var c = (a - b)/b * 100;
+   
+    document.getElementById('out1').innerHTML = c.toFixed(1) + " %";
+    
+   
+    
+}
 
 function f3(){
     
