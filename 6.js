@@ -59,6 +59,26 @@ function f4(){
         
         document.getElementById('out19').innerHTML = g.toFixed(2) + " см";
         document.getElementById('out22').innerHTML = p1.toFixed(2) + " см";
+        
+        
+        document.getElementById('out6').innerHTML = " ";
+    
+   
+        document.getElementById('out8').innerHTML = " ";
+        
+        document.getElementById('out9').innerHTML = " ";
+        
+        
+        document.getElementById('out11').innerHTML = " ";
+        
+        document.getElementById('out18').innerHTML = " ";
+        
+        document.getElementById('out20').innerHTML = " ";
+        
+        document.getElementById('out21').innerHTML = " ";
+        document.getElementById('out23').innerHTML = " ";
+        
+        
         return
     }
     else if ( i > 200){
@@ -78,6 +98,14 @@ function f4(){
         
         document.getElementById('out21').innerHTML = u1.toFixed(2) + " см";
         document.getElementById('out23').innerHTML = s1.toFixed(2) + " см";
+        
+        
+        
+        document.getElementById('out7').innerHTML =  " ";
+        document.getElementById('out10').innerHTML = " ";
+        
+        document.getElementById('out19').innerHTML = " ";
+        document.getElementById('out22').innerHTML = " ";
         
         return
     }
@@ -138,6 +166,20 @@ var z = v * 0.28 / 10;
         
         document.getElementById('out13').innerHTML = y.toFixed(2) + " см";
         document.getElementById('out16').innerHTML = b.toFixed(2) + " см";
+        
+        
+        
+        
+        document.getElementById('out12').innerHTML =  " ";
+    
+   
+    
+    document.getElementById('out14').innerHTML = " ";
+        
+        document.getElementById('out15').innerHTML = " ";
+        
+        
+        document.getElementById('out17').innerHTML = " ";
         return
     }
     else if ( v > 300){
@@ -151,6 +193,9 @@ var z = v * 0.28 / 10;
         
         
         document.getElementById('out17').innerHTML = c.toFixed(2) + " см";
+        
+           document.getElementById('out13').innerHTML =  " ";
+        document.getElementById('out16').innerHTML = " ";
         return
     }
     
