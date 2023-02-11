@@ -162,7 +162,17 @@ var z = v * 0.28 / 10;
         
     var c = (v - v * 0.28) / 10;
     
+    var b1 = 6 * v / 10;
+    var c1 = 2 * v / 10;
+    
+    document.getElementById('out24').innerHTML = b1.toFixed(1) + " см";
+    document.getElementById('out25').innerHTML = c1.toFixed(1) + " см";
+    
     if ( v >= 100 && v <= 300) {
+        
+        
+        
+        
         
         document.getElementById('out13').innerHTML = y.toFixed(2) + " см";
         document.getElementById('out16').innerHTML = b.toFixed(2) + " см";
