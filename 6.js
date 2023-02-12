@@ -28,16 +28,16 @@ function f4(){
      
    var  s = 0.4 * i / 10;
      
-    var e = 0.9 * d / 10;
+
      
      
      
     
      
- var g = 0.8 * d / 10;
+
      
      
-    var h = 0.6 * d / 10;
+
      
   
      
@@ -57,7 +57,7 @@ function f4(){
         document.getElementById('out7').innerHTML = w.toFixed(2) + " см";
         document.getElementById('out10').innerHTML = p.toFixed(2) + " см";
         
-        document.getElementById('out19').innerHTML = g.toFixed(2) + " см";
+     
         document.getElementById('out22').innerHTML = p1.toFixed(2) + " см";
         
         
@@ -71,9 +71,9 @@ function f4(){
         
         document.getElementById('out11').innerHTML = " ";
         
-        document.getElementById('out18').innerHTML = " ";
+      
         
-        document.getElementById('out20').innerHTML = " ";
+   
         
         document.getElementById('out21').innerHTML = " ";
         document.getElementById('out23').innerHTML = " ";
@@ -92,9 +92,7 @@ function f4(){
         
         document.getElementById('out11').innerHTML = s.toFixed(2) + " см";
         
-        document.getElementById('out18').innerHTML = e.toFixed(2) + " см";
-        
-        document.getElementById('out20').innerHTML = h.toFixed(2) + " см";
+ 
         
         document.getElementById('out21').innerHTML = u1.toFixed(2) + " см";
         document.getElementById('out23').innerHTML = s1.toFixed(2) + " см";
@@ -103,8 +101,7 @@ function f4(){
         
         document.getElementById('out7').innerHTML =  " ";
         document.getElementById('out10').innerHTML = " ";
-        
-        document.getElementById('out19').innerHTML = " ";
+      
         document.getElementById('out22').innerHTML = " ";
         
         return
