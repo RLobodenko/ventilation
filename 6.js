@@ -131,19 +131,9 @@ function f4(){
 
 function f5(){
     
- //   var m = document.getElementById('in8').value;
 
 
-    
-//var n = 6 * m;
-    
-  // var o = 2 * m;
-      
-  //  document.getElementById('out4').innerHTML = n + " мм";
-    
-  //  document.getElementById('out5').innerHTML = o + " мм";
-    
-    var v = document.getElementById('in9').value;
+var v = document.getElementById('in9').value;
     
     
 var x = v * 0.054 / 10;
