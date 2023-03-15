@@ -9,9 +9,10 @@ function f3(){
     var c = a/b;
    
     document.getElementById('out1').innerHTML = c.toFixed(1);
-    
-   
-    
+      
 }
 
+fun1 = function(e) {
+	e.value = e.value.replace(/[,]/g, ".");
+};            
 
