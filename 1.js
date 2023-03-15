@@ -29,9 +29,7 @@ function f3(){
     
 }
 
-fun1 = function(e) {
-	e.value = e.value.replace(/[,]/g, ".");
-};            
+      
 
 
 
