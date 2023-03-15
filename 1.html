@@ -33,7 +33,7 @@
 <p>Расход воздуха для круглого сечения:</p>
 
 <p>Введите среднюю скорость(м/с):</p>
-<input id="in4" type="text"/>
+<input id="in4" type="text"  onkeyup="return proverka(this);" onchange="return proverka(this);" />
 <p>Введите диаметр(мм):</p>
 <input id="in5" type="text" /><br />
 <br />
@@ -41,6 +41,10 @@
 
 <p>L : <span id="out1"></span></p>
 
+
+
+
+</script>
 
 <hr />
 <p>Расход воздуха для прямоугольного сечения:</p>
