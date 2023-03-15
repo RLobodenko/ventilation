@@ -47,7 +47,4 @@ function f4(){
     
 }
 
-function proverka(input) { 
-    input.value = input.value.replace(/[^\d,]/g, '');
-};
 
