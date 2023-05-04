@@ -8,9 +8,9 @@ var radio6 = document.getElementsByName('in6');
 var radio7 = document.getElementsByName('in7');
 
 
-var ks1=[1100, 2200, 3300, 4400];
-var ks2=[900, 1800, 2700, 3600];
-var ks3=[1000, 2000, 3000, 4000];
+var ks1=['АИР71В6У1', 2200, 3300, 4400];
+var ks2=[0.55, 1800, 2700, 3600];
+var ks3=[880, 2000, 3000, 4000];
 var ks4=[1100, 2200, 3300, 4400];
 var ks5=[900, 1800, 2700, 3600];
 var ks6=[1000, 2000, 3000, 4000];
