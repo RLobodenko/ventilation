@@ -3,7 +3,6 @@
 
 var radio1 = document.getElementsByName('in1');
 
-radio1[0].onchange = f2;
 radio1[1].onchange = f2;
 radio1[2].onchange = f2;
 radio1[3].onchange = f2;
