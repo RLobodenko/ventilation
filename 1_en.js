@@ -23,7 +23,7 @@ function f3(){
 
     var c = 3600 * a * 3.14 * b * b / 4000000;
    
-    document.getElementById('out1').innerHTML = c.toFixed(1) + " м3/ч";
+    document.getElementById('out1').innerHTML = c.toFixed(1) + " m3/h";
     
    
     
@@ -41,34 +41,9 @@ function f4(){
     
     
     var d = 3600 * x * y * z / 1000000;
-    document.getElementById('out2').innerHTML = d.toFixed(1) + " м3/ч";
+    document.getElementById('out2').innerHTML = d.toFixed(1) + " m3/h";
     
    
-    
-}
-
-
-			    
-			    
-
-
-
-
-
-
-function f9() {
-      window.open('1_en.html');
-    
-}
-
-
-function f8() {
-    window.open('1.html');
-    
-}
-
-function f7() {
-window.open('1_by.html');
     
 }
 
